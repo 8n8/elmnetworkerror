@@ -1,0 +1,18 @@
+name: server
+version: 1.0.0
+synopsis: It responds with an a
+maintainer: 8n8
+license: BSD3
+
+ghc-options: -Wall -O2 -threaded
+
+dependencies:
+  - base >= 4.7 && < 5
+  - scotty
+  - text
+
+executables:
+  server:
+    main: Main.hs
+    source-dirs:
+      - src 
