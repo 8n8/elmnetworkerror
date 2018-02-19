@@ -1,0 +1,10 @@
+*
+!.gitignore
+!*.elm
+!src/
+!server/
+!*.hs
+!elm-package.json
+!*.yaml
+!server/src/
+!LICENSE
